@@ -1,0 +1,20 @@
+{
+	
+	"manifest_version" : 2,
+	"version" : "1.0.0",
+	
+	"name" : "mozisu count",
+	"short_name" : "mozi",
+	"description" : "テキストエリアに入力した文字数をカウントします♡",
+	
+	"browser_action" : {
+		"default_popup" : "mozi.html",
+		"default_icon" : "mozi_19.png"
+	},
+	"icons" : {
+		"16" : "mozi_16.png",
+		"48" : "mozi_48.png",
+		"128" : "mozi_128.png"
+	}
+
+}
