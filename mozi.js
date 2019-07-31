@@ -1,6 +1,10 @@
-$(function() {
-	$('#input-area').on('keydown keyup keypress change', function() {
-		var length = $(this).val().length;
-		$('#length-char').val(length);
-	});
+const $textarea = document.getElementById('input-area');
+const $inputText = document.getElementById('length-char');
+
+$textarea.addEventListener('keydown', el => {
+  $inputText.value = [...el.target.value].length;
+});
+
+$textarea.addEventListener('keyup', el => {
+  $inputText.value = [...el.target.value].length;
 });

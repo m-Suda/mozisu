@@ -1,24 +1,17 @@
 <!DOCTYPE html>
 <html lang="ja">
-	<head>
-		<meta charset="utf-8">
-		<script src="./jquery-3.3.1.min.js"></script>
-		<script src="./mozi.js"></script>
-		<link href="./mozi.css" rel="stylesheet" type="text/css">
-	</head>
-  <body style="min-width:250px">
+    <head>
+        <meta charset="utf-8">
+        <link href="./mozi.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="input-text-area">
+            <textarea id="input-area" rows="5" cols="35"></textarea>
+        </div>
 
-		<div class="wrapper">
-
-			<div class="input-text-area">
-					<textarea id="input-area" rows="5" cols="35"></textarea>
-			</div>
-
-			<div class="show-length-area">
-				<input type="text" id="length-char" size="8" readonly>
-			</div>
-
-		</div>
-	
-	</body>
+        <div class="show-length-area">
+            <input type="text" id="length-char" size="8" value="0" readonly>
+        </div>
+    <script src="./mozi.js"></script>
+    </body>
 </html>
