@@ -1,11 +1,11 @@
 {
 	
 	"manifest_version" : 2,
-	"version" : "1.0.0",
+	"version" : "1.2.0",
 	
-	"name" : "mozisu count",
-	"short_name" : "mozi",
-	"description" : "テキストエリアに入力した文字数をカウントします♡",
+	"name" : "mojisu count",
+	"short_name" : "mojisu",
+	"description" : "テキストエリアに入力した文字数をカウントします",
 	
 	"browser_action" : {
 		"default_popup" : "mozi.html",

@@ -2,9 +2,13 @@ const $textarea = document.getElementById('input-area');
 const $inputText = document.getElementById('length-char');
 
 $textarea.addEventListener('keydown', el => {
-  $inputText.value = [...el.target.value].length;
+    countLength(el.target.value);
 });
 
 $textarea.addEventListener('keyup', el => {
-  $inputText.value = [...el.target.value].length;
+    countLength(el.target.value);
 });
+
+function countLength(str) {
+    $inputText.value = [...str].length;
+}
